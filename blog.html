@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <h1>My Blog</h1>
+        <p>Articles, tutorials, and lessons from my web development journey.</p>
+    </section>
+
+    <!-- Blog Posts -->
+    <main class="blog-container">
+
+        <article class="blog-card">
+            <div class="blog-image blog-image-one">
+                <span>HTML</span>
+            </div>
+
+            <div class="blog-content">
+                <p class="blog-date">October 5, 2026</p>
+                <h2>Getting Started with HTML</h2>
+                <p>
+                    Learn the basics of HTML and how to structure a web page
+                    using headings, paragraphs, links, images, and forms.
+                </p>
+                <a href="#html-article" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-image blog-image-two">
+                <span>CSS</span>
+            </div>
+
+            <div class="blog-content">
+                <p class="blog-date">October 8, 2026</p>
+                <h2>Making Websites Beautiful with CSS</h2>
+                <p>
+                    Discover how colors, spacing, typography, Flexbox,
+                    and Grid can make websites attractive and responsive.
+                </p>
+                <a href="#css-article" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-image blog-image-three">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="blog-content">
+                <p class="blog-date">October 12, 2026</p>
+                <h2>Adding Interactivity with JavaScript</h2>
+                <p>
+                    Explore how JavaScript can respond to user actions,
+                    validate forms, and make web pages interactive.
+                </p>
+                <a href="#js-article" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Article Preview Sections -->
+    <section class="blog-articles">
+
+        <article id="html-article" class="blog-article">
+            <h2>Getting Started with HTML</h2>
+            <p>
+                HTML stands for HyperText Markup Language. It provides the
+                structure of a web page. Elements such as headings,
+                paragraphs, links, and images help organize content.
+            </p>
+            <pre><code>&lt;h1&gt;Hello, World!&lt;/h1&gt;
+&lt;p&gt;My first web page.&lt;/p&gt;</code></pre>
+        </article>
+
+        <article id="css-article" class="blog-article">
+            <h2>Making Websites Beautiful with CSS</h2>
+            <p>
+                CSS stands for Cascading Style Sheets. It controls the
+                appearance of a page, including colors, layouts, spacing,
+                and responsive designs for mobile devices.
+            </p>
+            <pre><code>h1 {
+    color: #2563eb;
+    text-align: center;
+}</code></pre>
+        </article>
+
+        <article id="js-article" class="blog-article">
+            <h2>Adding Interactivity with JavaScript</h2>
+            <p>
+                JavaScript lets a website react to user actions. You can
+                use it to respond to button clicks, validate forms,
+                and update content dynamically.
+            </p>
+            <pre><code>document.querySelector("h1").textContent =
+    "Welcome to My Website!";</code></pre>
+        </article>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Ashpak Nisar Attar. All rights reserved.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/yourusername"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername"
+               target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
